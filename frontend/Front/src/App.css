@@ -1,0 +1,106 @@
+#root {
+  width:90vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.dashTitle{
+  border:solid blue;
+}
+.notesContainer{
+  border:solid lightgrey;
+}
+.noteGoat{
+  border:solid lightblue;
+  padding:1em;
+  margin:2em;
+  border-width:.2px;
+  /* height:22px;  */
+  border-radius:8px;
+  display:flex;
+  justify-content: space-between;
+}
+.top{
+  border:solid lightblue;
+  border-radius:9px;
+  border-width:.2px;
+  padding:10px;
+  /* display: flex; */
+  justify-content: space-between;
+  width:65%;
+  
+}
+.bottom{
+  display:flex;
+  justify-content: space-between;
+  width:20%;
+}
+.editBtn, .deleteBtn {
+  border:solid white;
+  border-width:.2px;
+ padding:2px;
+ height:15px;
+ margin-top:10%;
+ border-radius:4px;
+ font-size:12px;
+}
+.editBtn:hover, .deleteBtn:hover {
+  border:solid lime;
+  border-width:.2px;
+ padding:2px;
+ color:lime;
+ font-size:12px;
+}
+.noteTitle{
+  text-align:left;
+}
+.noteBody{
+  text-align:right;
+}
+.formMajor{
+  border:solid white;
+  border-width:.2px;
+  /* height:22vh; */
+  margin:2em;
+}
+
+form{
+  border:solid green;
+  margin:1em;
+}
