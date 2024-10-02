@@ -4,7 +4,8 @@ const mongoose = require ('mongoose')
 const noteSchema = new mongoose.Schema({
     title: String,
     body : String
-})
+} ,{timestamps: true }
+)
 
 
 //This is where Schema and Properties are created.
